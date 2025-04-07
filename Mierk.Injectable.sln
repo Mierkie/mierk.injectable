@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mierk.Injectable", "Mierk.Injectable\Mierk.Injectable.csproj", "{8B731685-BCFC-418D-91D6-66C807157872}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mierk.Injectable.Tests", "Mierk.Injectable.Tests\Mierk.Injectable.Tests.csproj", "{F6D18107-B640-41AB-B8B1-316F648D9398}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mierk.Injectable.Tests.Invalid", "Mierk.Injectable.Tests.Invalid\Mierk.Injectable.Tests.Invalid.csproj", "{9B78DFDE-3438-46B2-9AE1-20EE3A5A3795}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleConsoleApp", "SampleConsoleApp\SampleConsoleApp.csproj", "{8120D01D-1EC0-416C-8429-46FBC8F41C2F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B731685-BCFC-418D-91D6-66C807157872}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B731685-BCFC-418D-91D6-66C807157872}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B731685-BCFC-418D-91D6-66C807157872}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B731685-BCFC-418D-91D6-66C807157872}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6D18107-B640-41AB-B8B1-316F648D9398}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6D18107-B640-41AB-B8B1-316F648D9398}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6D18107-B640-41AB-B8B1-316F648D9398}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6D18107-B640-41AB-B8B1-316F648D9398}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B78DFDE-3438-46B2-9AE1-20EE3A5A3795}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B78DFDE-3438-46B2-9AE1-20EE3A5A3795}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B78DFDE-3438-46B2-9AE1-20EE3A5A3795}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B78DFDE-3438-46B2-9AE1-20EE3A5A3795}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8120D01D-1EC0-416C-8429-46FBC8F41C2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8120D01D-1EC0-416C-8429-46FBC8F41C2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8120D01D-1EC0-416C-8429-46FBC8F41C2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8120D01D-1EC0-416C-8429-46FBC8F41C2F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+EndGlobal
