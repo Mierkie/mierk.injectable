@@ -34,6 +34,7 @@ public static class ServiceCollectionExtensions
                     ServiceLifetimeMode.Singleton => services.AddSingleton(serviceType, implementationType),
                     ServiceLifetimeMode.Scoped => services.AddScoped(serviceType, implementationType),
                     ServiceLifetimeMode.Transient => services.AddTransient(serviceType, implementationType),
+                    _ => throw new ArgumentOutOfRangeException(nameof(attr.Lifetime))
                 };
             }
         }
